@@ -1,0 +1,33 @@
+.owl-carousel.owl-theme {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+.item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 25px;
+  height: 25px;
+  margin: 5px 7px;
+}
+.content {
+  flex: 1;
+}
+.img {
+  flex: 2;
+}
+
+.item {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.owl-dots {
+  position: absolute;
+  rotate: 90deg;
+  left: 30%;
+  top: 44%;
+}
